@@ -1,0 +1,52 @@
+# =============================================================
+# Forensic evidence - NEVER commit these
+# =============================================================
+*.raw
+*.mem
+*.dmp
+*.E01
+*.e01
+*.vdi
+*.vmdk
+*.vhd
+*.pcap
+*.pcapng
+*.evtx
+
+# Evidence directories
+evidence/
+Evidence/
+Case01/
+/images/
+/captures/
+
+# =============================================================
+# Execution logs (may contain paths, usernames, host details)
+# =============================================================
+*.log
+Logs/
+logs/
+
+# =============================================================
+# Generated lab content
+# =============================================================
+Shares/
+IT_Backup_*.zip
+
+# =============================================================
+# Credentials and local configuration
+# =============================================================
+*credentials*
+*password*
+*.env
+config.local.*
+
+# =============================================================
+# OS and editor artefacts
+# =============================================================
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+.vscode/
+.idea/
